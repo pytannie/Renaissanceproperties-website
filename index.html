@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renaissance Properties - Real Estate Investment Solutions</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid navbar-3flex">
+            <a class="navbar-brand ms-4" href="#home">
+                <div class="brand-wrapper">
+                    <i class="fas fa-building brand-icon"></i>
+                    <span class="brand-text">Renaissance Properties</span>
+                </div>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <div class="navbar-center mx-auto">
+                    <ul class="navbar-nav nav-center-group align-items-center">
+                        <li class="nav-item nav-item-main"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item nav-item-main"><a class="nav-link" href="#services">Services</a></li>
+                        <li class="nav-item nav-item-main"><a class="nav-link" href="#market">Market<br>Analysis</a></li>
+                        <li class="nav-item nav-item-main"><a class="nav-link" href="#revenue">Revenue<br>Model</a></li>
+                        <li class="nav-item nav-item-main"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item nav-item-main"><a class="nav-link" href="#properties">Properties</a></li>
+                        <li class="nav-item nav-item-main"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-right ms-lg-4 ms-2">
+                    <div class="auth-buttons d-flex align-items-center gap-2">
+                        <a href="#" class="btn login-btn">Login</a>
+                        <a href="#" class="btn signup-btn">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-bg-img"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content w-100 mx-auto">
+            <div class="hero-badge mb-4" data-aos="fade-down" data-aos-delay="200">
+                <i class="fas fa-star"></i>
+                <span>Premier Real Estate Investment Solutions</span>
+            </div>
+            <h1 class="mega-title mb-3" data-aos="fade-up" data-aos-delay="400">
+                Secure Your Future with <span class="highlight">Renaissance Properties</span>
+            </h1>
+            <p class="hero-subtitle mb-4" data-aos="fade-up" data-aos-delay="600">
+                Your trusted partner in South African real estate investment, specializing in serving the African diaspora with expert property solutions and management services.
+            </p>
+            <div class="hero-features mb-4" data-aos="fade-up" data-aos-delay="800">
+                <div class="feature-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Expert Property Management</span>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>High ROI Investments</span>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Secure Transactions</span>
+                </div>
+            </div>
+            <div class="hero-buttons mb-4" data-aos="fade-up" data-aos-delay="1000">
+                <a href="#contact" class="btn btn-primary btn-lg me-3">
+                    <span>Get Started</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#services" class="btn btn-outline-light btn-lg">
+                    <span>Explore Services</span>
+                    <i class="fas fa-th"></i>
+                </a>
+            </div>
+            <div class="hero-stats" data-aos="fade-up" data-aos-delay="1200">
+                <div class="stat-item">
+                    <h4>500+</h4>
+                    <p>Properties Managed</p>
+                </div>
+                <div class="stat-item">
+                    <h4>98%</h4>
+                    <p>Client Satisfaction</p>
+                </div>
+                <div class="stat-item">
+                    <h4>15+</h4>
+                    <p>Years Experience</p>
+                </div>
+            </div>
+            <div class="hero-floating-cards d-none d-lg-block">
+                <div class="floating-card card-1">
+                    <i class="fas fa-home"></i>
+                    <span>Premium Properties</span>
+                </div>
+                <div class="floating-card card-2">
+                    <i class="fas fa-chart-bar"></i>
+                    <span>High Returns</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <div class="section-badge">
+                    <i class="fas fa-star"></i>
+                    <span>Our Services</span>
+                </div>
+                <h2 class="section-title">
+                    Comprehensive Property <span class="highlight">Solutions</span>
+                </h2>
+                <p class="section-subtitle">
+                    Expert services tailored to meet your real estate investment needs in South Africa
+                </p>
+            </div>
+            
+            <!-- Service Cards -->
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-image">
+                        <img src="images/services/Property-acquisation.jpg" alt="Property Hunting & Acquisition">
+                    </div>
+                    <div class="service-icon">
+                        <i class="fas fa-search-location"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Property Hunting & Acquisition</h3>
+                        <p>Expert assistance in finding high-value real estate opportunities in South Africa's lucrative property market.</p>
+                        <ul class="service-features">
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Market Analysis</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Property Valuation</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Location Assessment</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Investment Strategy</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Negotiation Support</span>
+                            </li>
+                        </ul>
+                        <button class="service-btn" data-bs-toggle="modal" data-bs-target="#serviceLearnMoreModal">
+                            <span>Learn More</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-image">
+                        <img src="images/services/property mantainance.jpg" alt="Property Maintenance & Management">
+                    </div>
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Property Maintenance & Management</h3>
+                        <p>Comprehensive maintenance services to preserve and enhance your investment value.</p>
+                        <ul class="service-features">
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Regular Inspections</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Preventive Maintenance</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Emergency Repairs</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Contractor Management</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Property Updates</span>
+                            </li>
+                        </ul>
+                        <button class="service-btn" data-bs-toggle="modal" data-bs-target="#serviceLearnMoreModal">
+                            <span>Learn More</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-image">
+                        <img src="images/services/tenant.jpg" alt="Tenant Administration">
+                    </div>
+                    <div class="service-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Tenant Administration</h3>
+                        <p>Seamless leasing processes and tenant management for hassle-free property ownership.</p>
+                        <ul class="service-features">
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Tenant Screening</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Lease Management</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Rent Collection</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Financial Reporting</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Legal Compliance</span>
+                            </li>
+                        </ul>
+                        <button class="service-btn" data-bs-toggle="modal" data-bs-target="#serviceLearnMoreModal">
+                            <span>Learn More</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Market Analysis Section -->
+    <section id="market" class="market-section py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5" data-aos="fade-up">
+                <span class="title-highlight">Market Analysis</span>
+            </h2>
+            
+            <div class="market-grid">
+                <div class="market-card target-market" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="market-card-header">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-users-viewfinder"></i>
+                        </div>
+                        <h3>Target Market</h3>
+                    </div>
+                    <ul class="market-list">
+                        <li class="market-item" data-aos="fade-up" data-aos-delay="100">
+                            <i class="fas fa-globe-africa"></i>
+                            <span>Zimbabwean Expatriates</span>
+                        </li>
+                        <li class="market-item" data-aos="fade-up" data-aos-delay="200">
+                            <i class="fas fa-briefcase"></i>
+                            <span>High-Income Professionals Abroad</span>
+                        </li>
+                        <li class="market-item" data-aos="fade-up" data-aos-delay="300">
+                            <i class="fas fa-building"></i>
+                            <span>Domestic Market in Gauteng Province</span>
+                        </li>
+                    </ul>
+                    <button class="btn btn-outline-light learn-more-btn" data-bs-toggle="modal" data-bs-target="#marketLearnMoreModal" data-aos="fade-up" data-aos-delay="400">
+                        Learn More
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <div class="market-trends" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="trends-header">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Market Trends</h3>
+                    </div>
+                    
+                    <div class="trend-cards">
+                        <div class="trend-card" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="trend-icon">
+                                <i class="fas fa-home"></i>
+                            </div>
+                            <h4>Rising Interest in Affordable Housing</h4>
+                            <p>Significant growth in properties valued under R1.2 million.</p>
+                            <div class="trend-progress">
+                                <div class="progress-bar" style="width: 75%"></div>
+                            </div>
+                        </div>
+
+                        <div class="trend-card" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="trend-icon">
+                                <i class="fas fa-city"></i>
+                            </div>
+                            <h4>Increased Urbanization</h4>
+                            <p>Expected to reach 72% by 2030.</p>
+                            <div class="trend-progress">
+                                <div class="progress-bar" style="width: 72%"></div>
+                            </div>
+                        </div>
+
+                        <div class="trend-card" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="trend-icon">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                            <h4>Post-COVID Recovery</h4>
+                            <p>Strong market resilience with new opportunities.</p>
+                            <div class="trend-progress">
+                                <div class="progress-bar" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade" id="marketDetailsModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Detailed Market Analysis</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <h4>Zimbabwean Expatriates</h4>
+                    <p>Our primary focus is on Zimbabwean nationals working abroad who are looking for stable investment opportunities. These individuals typically have significant savings and are seeking ways to secure their financial future.</p>
+                    
+                    <h4>High-Income Professionals Abroad</h4>
+                    <p>We cater to professionals working in countries like the UK, USA, Australia, and various Asian countries who want to invest in South African real estate for both returns and retirement planning.</p>
+                    
+                    <h4>Domestic Market in Gauteng Province</h4>
+                    <p>The local market in Gauteng Province provides excellent opportunities due to its strong economic fundamentals, educational institutions, and growing urbanization.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="revenue" class="revenue-section py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5" data-aos="fade-up">
+                <span class="title-highlight">Revenue Model</span>
+            </h2>
+            
+            <div class="revenue-table-container" data-aos="fade-up">
+                <div class="table-header">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-coins"></i>
+                    </div>
+                    <h3>Revenue Streams</h3>
+                </div>
+                
+                <div class="custom-table">
+                    <table class="table table-hover revenue-table">
+                        <thead>
+                            <tr>
+                                <th>Revenue Stream</th>
+                                <th>Description</th>
+                                <th>Example Earnings</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr data-aos="fade-up" data-aos-delay="100">
+                                <td>
+                                    <div class="revenue-name">
+                                        <i class="fas fa-home"></i>
+                                        <span>Property Acquisition</span>
+                                    </div>
+                                </td>
+                                <td>Expert guidance in property selection and purchase process</td>
+                                <td>R80,000 on a R2M property</td>
+                            </tr>
+                            <tr data-aos="fade-up" data-aos-delay="200">
+                                <td>
+                                    <div class="revenue-name">
+                                        <i class="fas fa-tools"></i>
+                                        <span>Property Management</span>
+                                    </div>
+                                </td>
+                                <td>Comprehensive property maintenance and management</td>
+                                <td>R1,000/month on R10,000 rental</td>
+                            </tr>
+                            <tr data-aos="fade-up" data-aos-delay="300">
+                                <td>
+                                    <div class="revenue-name">
+                                        <i class="fas fa-user-check"></i>
+                                        <span>Tenant Placement</span>
+                                    </div>
+                                </td>
+                                <td>Quality tenant sourcing and screening services</td>
+                                <td>R8,000 per tenant</td>
+                            </tr>
+                            
+                            <tr class="hidden-revenue-row" style="display: none;" data-aos="fade-up" data-aos-delay="400">
+                                <td>
+                                    <div class="revenue-name">
+                                        <i class="fas fa-file-invoice"></i>
+                                        <span>Rental Administration</span>
+                                    </div>
+                                </td>
+                                <td>Complete rental management and administration</td>
+                                <td>R640/month per tenant</td>
+                            </tr>
+                            <tr class="hidden-revenue-row" style="display: none;" data-aos="fade-up" data-aos-delay="500">
+                                <td>
+                                    <div class="revenue-name">
+                                        <i class="fas fa-gavel"></i>
+                                        <span>Legal & Compliance</span>
+                                    </div>
+                                </td>
+                                <td>Property-related legal and compliance services</td>
+                                <td>R5,000 per transaction</td>
+                            </tr>
+                            <tr class="hidden-revenue-row" style="display: none;" data-aos="fade-up" data-aos-delay="600">
+                                <td>
+                                    <div class="revenue-name">
+                                        <i class="fas fa-hammer"></i>
+                                        <span>Renovation Services</span>
+                                    </div>
+                                </td>
+                                <td>Property renovation and upgrade management</td>
+                                <td>R7,500 per R50K project</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="text-center mt-4">
+                    <button class="btn btn-outline-light view-more-btn" onclick="toggleRevenueRows()">
+                        <span class="view-more-text">View More</span>
+                        <i class="fas fa-chevron-down ms-2"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5" data-aos="fade-up">About Renaissance Properties</h2>
+            
+            <div class="row justify-content-center mb-5">
+                <div class="col-12" data-aos="fade-up">
+                    <div class="about-content text-center">
+                        <h2 class="section-title mb-3">About </h2>
+                        <h4 class="mb-4" style="color:#4a90e2; font-weight:600;">Your Trusted Partner for Cross-Border Real Estate Investment</h4>
+                        <p class="lead mb-4">Renaissance Properties empowers African expatriates—especially Zimbabweans in the UK, USA, Australia, and Asia—to invest confidently in South Africa's stable property market. We eliminate the risks of remote ownership through end-to-end services, from legal acquisition to tenant management.</p>
+                        <div class="row justify-content-center mb-4">
+                            <div class="col-md-10 mx-auto">
+                                <div class="mission-box p-4 mb-3" style="background:rgba(255,255,255,0.03); border-radius:16px; border:1px solid rgba(74,144,226,0.10);">
+                                    <h5 class="mb-2" style="color:#67b8e3; font-weight:600;">Our Mission</h5>
+                                    <ul class="text-start" style="max-width:700px; margin:0 auto;">
+                                        <li>Transparent, high-return investments in Gauteng's prime rental markets (student hubs, industrial zones).</li>
+                                        <li>Stress-free ownership with vetted tenants, maintenance, and rental collection.</li>
+                                        <li>Cross-border expertise tailored to expatriates' unique needs.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center mb-4">
+                            <div class="col-md-10 mx-auto">
+                                <div class="problem-box p-4 mb-3" style="background:rgba(255,255,255,0.02); border-radius:16px; border:1px solid rgba(74,144,226,0.08);">
+                                    <h5 class="mb-2" style="color:#67b8e3; font-weight:600;">Why We Exist</h5>
+                                    <p class="mb-2">Zimbabwean expatriates face three critical barriers when investing back home:</p>
+                                    <ul class="text-start" style="max-width:700px; margin:0 auto;">
+                                        <li>Unstable economies and unreliable property sectors.</li>
+                                        <li>No trusted intermediaries to manage remote investments.</li>
+                                        <li>Complex legal/financial processes for cross-border transactions.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center mb-4">
+                            <div class="col-md-10 mx-auto">
+                                <div class="solution-box p-4 mb-3" style="background:rgba(255,255,255,0.03); border-radius:16px; border:1px solid rgba(74,144,226,0.10);">
+                                    <h5 class="mb-2" style="color:#67b8e3; font-weight:600;">Our Solution</h5>
+                                    <ul class="text-start" style="max-width:700px; margin:0 auto;">
+                                        <li><span style="color:#4a90e2; font-weight:600;">✅ Gauteng-Focused Expertise:</span> We target high-demand areas near universities and industries (e.g., Pretoria, Johannesburg) where rental demand is consistent—backed by market research showing Gauteng accounts for 38% of SA's residential property value.</li>
+                                        <li><span style="color:#4a90e2; font-weight:600;">✅ Diaspora-Tailored Services:</span> Property acquisition with legal compliance checks, tenant vetting and rent collection (98% on-time rate), regular property maintenance and reporting.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center mb-4">
+                            <div class="col-md-10 mx-auto">
+                                <div class="differentiators-box p-4 mb-3" style="background:rgba(255,255,255,0.02); border-radius:16px; border:1px solid rgba(74,144,226,0.08);">
+                                    <h5 class="mb-2" style="color:#67b8e3; font-weight:600;">Why Clients Trust Us</h5>
+                                    <ul class="text-start" style="max-width:700px; margin:0 auto;">
+                                        <li>Pioneers in the niche: First mover in serving Zimbabwean expats investing in SA.</li>
+                                        <li>SA-registered: Legally compliant with local property laws.</li>
+                                        <li>Transparent fees: No hidden costs (e.g., 8–12% management fees as outlined in our Revenue Model).</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <span style="display:inline-block; width:60px; height:3px; background:linear-gradient(90deg, #4a90e2, #67b8e3); border-radius:2px;"></span>
+                </div>
+            </div>
+            <div class="row justify-content-center mb-5">
+                <div class="col-12" data-aos="fade-up">
+                    <div class="background-story text-center">
+                        <h3 class="mb-4">Our Background Story</h3>
+                        <p>In today's globalized world, many African nationals, particularly Zimbabweans, have migrated to countries such as the UK, USA, Australia, and Asia in pursuit of better economic opportunities. While they have managed to accumulate significant savings abroad, these individuals face major barriers when attempting to invest their funds in real estate back home.</p>
+                        <p>The primary issues include a lack of profitability in the property sector, tough economic conditions, unstable financial systems, and a lack of globally connected banking infrastructure. This has left many expatriates unable or unwilling to invest in properties that could serve as sustainable sources of income, both now and in retirement.</p>
+                        <p>Renaissance Properties was founded to solve these challenges. By focusing on South Africa's stable economy and high-potential property market, we provide a safe, transparent, and profitable avenue for expatriates to invest in real estate. Our services span the entire investment lifecycle, from property hunting and acquisition to maintenance and tenant management, making cross-border investment seamless and secure.</p>
+                        <div class="challenges mt-4">
+                            <h4>Key Challenges We Address:</h4>
+                            <ul class="challenge-list">
+                                <li><i class="fas fa-dot-circle text-primary"></i> <span>Lack of trusted intermediaries and reliable property management</span></li>
+                                <li><i class="fas fa-dot-circle text-primary"></i> <span>Complex legal, financial, and cross-border transaction processes</span></li>
+                                <li><i class="fas fa-dot-circle text-primary"></i> <span>Concerns about transparency, profitability, and long-term value</span></li>
+                                <li><i class="fas fa-dot-circle text-primary"></i> <span>Economic and political instability in home countries</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vision-section text-center py-5" data-aos="fade-up">
+                <h3 class="mb-5">Our Vision & Future</h3>
+                <div class="row g-4">
+                    <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+                        <div class="vision-card">
+                            <i class="fas fa-building mb-3"></i>
+                            <h4>Property Investment Hub</h4>
+                            <p>Creating the largest property investment platform for African expatriates</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
+                        <div class="vision-card">
+                            <i class="fas fa-chart-line mb-3"></i>
+                            <h4>Wealth Creation</h4>
+                            <p>Facilitating sustainable wealth through strategic property investments</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
+                        <div class="vision-card">
+                            <i class="fas fa-handshake mb-3"></i>
+                            <h4>Community Impact</h4>
+                            <p>Building a community of successful investors while contributing to economic development</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3" data-aos="fade-up" data-aos-delay="400">
+                        <div class="vision-card">
+                            <i class="fas fa-globe-africa mb-3"></i>
+                            <h4>Pan-African Expansion</h4>
+                            <p>Expanding services across African markets for global diaspora</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Meet Our Team -->
+            <div class="team-section py-5" data-aos="fade-up">
+                <h3 class="section-title text-center mb-5">Meet Our Team</h3>
+                <div class="row justify-content-center g-4">
+                    <div class="col-md-6 col-lg-5">
+                        <div class="team-card text-center p-4 rounded-4 shadow-lg h-100" style="background:rgba(255,255,255,0.04); border:1.5px solid rgba(74,144,226,0.15);">
+                            <div class="team-img mb-3">
+                                <img src="images/services/Tichaona.JPG" alt="Tichaona Murisi" class="img-fluid" style="width:150px; height:150px; object-fit:cover; border-radius:50%; border:4px solid #4a90e2; box-shadow:0 4px 16px rgba(74,144,226,0.15); background:#fff;">
+                            </div>
+                            <div class="team-name mb-1" style="font-weight:700; font-size:1.25rem; color:#fff;">Tichaona Murisi</div>
+                            <div class="team-title mb-2" style="font-size:1rem; color:#6EACC9; font-style:italic;">Co-Founder & Strategic Lead</div>
+                            <div class="team-contact mb-2" style="font-size:1.05rem;">
+                                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=tichmurisi@gmail.com" target="_blank" style="color:#4a90e2; text-decoration:none;">
+  📧 tichmurisi@gmail.com
+</a>
+
+                                <div><span style="font-size:1.1em;">📞</span> <a href="tel:+27838577567" style="color:#4a90e2; text-decoration:none;">+27 838 577 567</a></div>
+                            </div>
+                            <div class="team-intro mb-3" style="color:rgba(255,255,255,0.85); font-size:1.05rem;">Tichaona Murisi brings over a decade of experience in business development, economics, and strategic planning to Renaissance Properties. With a robust academic foundation, holding a Master's in Business Management and dual degrees in Economics and Business Management.</div>
+                            <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#bioModalTichaona">View Full Bio</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-5">
+                        <div class="team-card text-center p-4 rounded-4 shadow-lg h-100" style="background:rgba(255,255,255,0.04); border:1.5px solid rgba(74,144,226,0.15);">
+                            <div class="team-img mb-3">
+                                <img src="images/services/Enock.PNG" alt="Enock Mukwekwe" class="img-fluid" style="width:150px; height:150px; object-fit:cover; border-radius:50%; border:4px solid #4a90e2; box-shadow:0 4px 16px rgba(74,144,226,0.15); background:#fff;">
+                            </div>
+                            <div class="team-name mb-1" style="font-weight:700; font-size:1.25rem; color:#fff;">Enock Mukwekwe</div>
+                            <div class="team-title mb-2" style="font-size:1rem; color:#6EACC9; font-style:italic;">Co-Founder & Finance & Compliance Director</div>
+                            <div class="team-contact mb-2" style="font-size:1.05rem;">
+                               <a href="https://mail.google.com/mail/?view=cm&fs=1&to=emukwekwe@gmail.com" target="_blank" style="color:#4a90e2; text-decoration:none;">
+  📧 emukwekwe@gmail.com
+</a>
+
+                                <div><span style="font-size:1.1em;">📞</span> <a href="tel:+447471623202" style="color:#4a90e2; text-decoration:none;">+44 7471 623 202</a></div>
+                            </div>
+                            <div class="team-intro mb-3" style="color:rgba(255,255,255,0.85); font-size:1.05rem;">Enock Mukwekwe is a seasoned audit professional with international experience spanning South Africa, the UK, and the USA. A Chartered Accountant with a Postgraduate Diploma in Taxation and a B.Com from Rhodes University.</div>
+                            <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#bioModalEnock">View Full Bio</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Properties Section -->
+    <section id="properties" class="properties-section py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5" data-aos="fade-up">
+                <span class="title-highlight">Featured Properties</span>
+            </h2>
+
+            <div class="property-filters mb-4" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">All Properties</button>
+                <button class="filter-btn" data-filter="residential">Residential</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+                <button class="filter-btn" data-filter="luxury">Luxury</button>
+            </div>
+
+            <div class="properties-grid">
+                <div class="property-card" data-aos="fade-up" data-category="luxury">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" alt="Luxury Villa">
+                        <div class="property-tag">Luxury</div>
+                        <div class="property-status">For Sale</div>
+                    </div>
+                    <div class="property-content">
+                        <h3>Modern Luxury Villa</h3>
+                        <div class="property-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Sandton, Johannesburg</span>
+                        </div>
+                        <div class="property-features">
+                            <div class="feature">
+                                <i class="fas fa-bed"></i>
+                                <span>5 Beds</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-bath"></i>
+                                <span>4 Baths</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-ruler-combined"></i>
+                                <span>450 m²</span>
+                            </div>
+                        </div>
+                        <div class="property-footer">
+                            <div class="property-price">R 8,500,000</div>
+                            <button class="view-details-btn">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="property-card" data-aos="fade-up" data-aos-delay="100" data-category="residential">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Family Home">
+                        <div class="property-tag">Residential</div>
+                        <div class="property-status">For Sale</div>
+                    </div>
+                    <div class="property-content">
+                        <h3>Modern Family Home</h3>
+                        <div class="property-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Rosebank, Johannesburg</span>
+                        </div>
+                        <div class="property-features">
+                            <div class="feature">
+                                <i class="fas fa-bed"></i>
+                                <span>4 Beds</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-bath"></i>
+                                <span>3 Baths</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-ruler-combined"></i>
+                                <span>320 m²</span>
+                            </div>
+                        </div>
+                        <div class="property-footer">
+                            <div class="property-price">R 3,200,000</div>
+                            <button class="view-details-btn">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="property-card" data-aos="fade-up" data-aos-delay="200" data-category="commercial">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Office Space">
+                        <div class="property-tag">Commercial</div>
+                        <div class="property-status">For Rent</div>
+                    </div>
+                    <div class="property-content">
+                        <h3>Premium Office Space</h3>
+                        <div class="property-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>CBD, Johannesburg</span>
+                        </div>
+                        <div class="property-features">
+                            <div class="feature">
+                                <i class="fas fa-users"></i>
+                                <span>50 People</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-parking"></i>
+                                <span>20 Parking</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-ruler-combined"></i>
+                                <span>500 m²</span>
+                            </div>
+                        </div>
+                        <div class="property-footer">
+                            <div class="property-price">R 85,000/month</div>
+                            <button class="view-details-btn">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="property-card" data-aos="fade-up" data-aos-delay="300" data-category="residential">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Apartment">
+                        <div class="property-tag">Residential</div>
+                        <div class="property-status">For Rent</div>
+                    </div>
+                    <div class="property-content">
+                        <h3>Luxury Apartment</h3>
+                        <div class="property-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Melrose Arch, Johannesburg</span>
+                        </div>
+                        <div class="property-features">
+                            <div class="feature">
+                                <i class="fas fa-bed"></i>
+                                <span>2 Beds</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-bath"></i>
+                                <span>2 Baths</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-ruler-combined"></i>
+                                <span>120 m²</span>
+                            </div>
+                        </div>
+                        <div class="property-footer">
+                            <div class="property-price">R 25,000/month</div>
+                            <button class="view-details-btn">View Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5" data-aos="fade-up">
+                <button class="load-more-btn">
+                    <span>Load More Properties</span>
+                    <i class="fas fa-arrow-right ms-2"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5" data-aos="fade-up">
+                <span class="title-highlight">Get in Touch</span>
+            </h2>
+
+            <div class="contact-grid" data-aos="fade-up">
+                <div class="contact-info">
+                    <div class="info-card" data-aos="fade-right" data-aos-delay="100">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h4>Our Location</h4>
+                        <p>17 Federal Street<br>Crystal Park, Benoni, South Africa</p>
+                    </div>
+
+                    <div class="info-card" data-aos="fade-right" data-aos-delay="200">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <h4>Phone</h4>
+                        <p>+27 73 913 3314<br>+27 83 857 7567</p>
+                    </div>
+
+                    <div class="info-card" data-aos="fade-right" data-aos-delay="300">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h4>Email</h4>
+                        <p>info@propertymanagement.com<br>support@propertymanagement.com</p>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-icon" title="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-icon" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form" data-aos="fade-left" data-aos-delay="200">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control" placeholder="Your Phone">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Your Message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            Send Message <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade" id="propertyModal1" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modern Apartment in Sandton</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="propertyCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/property1.jpg" class="d-block w-100" alt="Property Image 1">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#propertyCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#propertyCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                    <div class="property-details mt-4">
+                        <h6>Description</h6>
+                        <p>Luxurious modern apartment in the heart of Sandton. Features include high-end finishes, 24/7 security, and amazing city views.</p>
+                        
+                        <h6>Features</h6>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> 24/7 Security</li>
+                            <li><i class="fas fa-check"></i> Covered Parking</li>
+                            <li><i class="fas fa-check"></i> Pool</li>
+                            <li><i class="fas fa-check"></i> Gym</li>
+                        </ul>
+
+                        <div class="contact-agent-form mt-4">
+                            <h6>Contact Agent</h6>
+                            <form>
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" placeholder="Your Name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" placeholder="Your Email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <textarea class="form-control" rows="3" placeholder="Your Message" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Send Inquiry</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="quoteModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Get a Quote</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="quoteForm">
+                        <div class="mb-3">
+                            <label class="form-label">Service Type</label>
+                            <select class="form-select" required>
+                                <option value="">Select a service</option>
+                                <option value="acquisition">Property Acquisition</option>
+                                <option value="management">Property Management</option>
+                                <option value="tenant">Tenant Administration</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Property Type</label>
+                            <select class="form-select" required>
+                                <option value="">Select property type</option>
+                                <option value="residential">Residential</option>
+                                <option value="commercial">Commercial</option>
+                                <option value="mixed">Mixed Use</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Property Value/Monthly Rent</label>
+                            <input type="number" class="form-control" placeholder="Enter amount in Rand" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Your Name</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Phone</label>
+                            <input type="tel" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Additional Notes</label>
+                            <textarea class="form-control" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Request Quote</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-widget about-widget">
+                            <div class="footer-logo">
+                                <i class="fas fa-building brand-icon"></i>
+                                <span class="brand-text">Renaissance Properties</span>
+                            </div>
+                            <p class="footer-desc">Your trusted partner in South African real estate investment, providing expert property solutions and management services.</p>
+                            <div class="social-links">
+                                <a href="#" class="social-link" title="Facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="social-link" title="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" class="social-link" title="LinkedIn">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="#" class="social-link" title="Instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <div class="footer-widget links-widget">
+                            <h4 class="widget-title">Quick Links</h4>
+                            <ul class="footer-links">
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#services">Services</a></li>
+                                <li><a href="#properties">Properties</a></li>
+                                <li><a href="#market">Market Analysis</a></li>
+                                <li><a href="#revenue">Revenue Model</a></li>
+                                <li><a href="#about">About Us</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget contact-widget">
+                            <h4 class="widget-title">Contact Info</h4>
+                            <ul class="contact-info">
+                                <li>
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>17 Federal Street, Crystal Park, Benoni, South Africa</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-phone"></i>
+                                    <span>+27 73 913 3314</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-envelope"></i>
+                                    <span>info@renaissanceproperties.co.za</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget newsletter-widget">
+                            <h4 class="widget-title">Newsletter</h4>
+                            <p>Subscribe to our newsletter for the latest property updates and investment opportunities.</p>
+                            <form class="newsletter-form">
+                                <div class="input-group">
+                                    <input type="email" class="form-control" placeholder="Your email address" required>
+                                    <button type="submit" class="btn btn-primary">
+                                        <i class="fas fa-paper-plane"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="copyright">© 2025 Renaissance Properties. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="footer-bottom-links">
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Cookie Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Login to Your Account</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="loginForm">
+                        <div class="mb-3">
+                            <label for="loginEmail" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="loginEmail" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="loginPassword" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="loginPassword" required>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="rememberMe">
+                            <label class="form-check-label" for="rememberMe">Remember me</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100 mb-3">Login</button>
+                        
+                        <div class="text-center mb-3">
+                            <span class="text-muted">Or continue with</span>
+                        </div>
+                        
+                        <button type="button" class="btn btn-outline-secondary w-100 mb-3" onclick="handleGoogleLogin()">
+                            <i class="fab fa-google me-2"></i>Sign in with Google
+                        </button>
+                        
+                        <div class="text-center">
+                            <a href="#" data-bs-target="#forgotPasswordModal" data-bs-toggle="modal">Forgot Password?</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Signup Modal -->
+    <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signupModalLabel">Create an Account</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="signupForm">
+                        <div class="mb-3">
+                            <label for="signupName" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="signupName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="signupEmail" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="signupEmail" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="signupPassword" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="signupPassword" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="confirmPassword" class="form-label">Confirm Password</label>
+                            <input type="password" class="form-control" id="confirmPassword" required>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="agreeTerms" required>
+                            <label class="form-check-label" for="agreeTerms">I agree to the Terms & Conditions</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100 mb-3">Sign Up</button>
+                        
+                        <div class="text-center mb-3">
+                            <span class="text-muted">Or sign up with</span>
+                        </div>
+                        
+                        <button type="button" class="btn btn-outline-secondary w-100" onclick="handleGoogleSignup()">
+                            <i class="fab fa-google me-2"></i>Sign up with Google
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Forgot Password Modal -->
+    <div class="modal fade" id="forgotPasswordModal" tabindex="-1" aria-labelledby="forgotPasswordModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="forgotPasswordModalLabel">Reset Password</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="forgotPasswordForm">
+                        <div class="mb-3">
+                            <label for="resetEmail" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="resetEmail" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Send Reset Link</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="serviceLearnMoreModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">About Our Services</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <h4>Executive Summary</h4>
+                    <p>In today's globalized world, many African nationals, particularly Zimbabweans, have migrated to countries such as the UK, USA, Australia, and Asia in pursuit of better economic opportunities. While they have managed to accumulate significant savings abroad, these individuals face significant barriers when attempting to invest their funds in real estate back home. The primary issues include a lack of profitability in the property sector, compounded by tough economic conditions, an unstable financial system, and a lack of globally connected banking infrastructure in their home countries. This has left many expatriates unable or unwilling to invest in properties that could serve as sustainable sources of income, both now and in retirement.</p>
+                    <p>Our business provides a comprehensive solution to these challenges by facilitating real estate investments in South Africa—a country known for its stable economy and lucrative property market. We offer services that span the entire investment lifecycle, from property hunting and acquisition to property maintenance and tenant management. By focusing on a market that combines high potential returns with stability, we create an avenue for expatriates to achieve their investment goals while minimizing risk.</p>
+                    <h4>Business Description</h4>
+                    <p><strong>Company Overview:</strong> Renaissance Properties is a dynamic and innovative company dedicated to addressing the real estate investment needs of African expatriates. Our mission is to provide a sustainable financial solution that safeguards the lifetime earnings of the African diaspora, ensuring they achieve long-term financial security and stability. Our vision is to become the trusted wealth caretakers of choice for migrants working abroad, offering transparency, reliability, and superior service.</p>
+                    <p><strong>Our Services:</strong></p>
+                    <ul>
+                        <li><strong>Property Hunting and Acquisition:</strong> Identifying high-value real estate opportunities in South Africa's lucrative property market, assisting clients in finding properties that match their investment goals, and navigating legal, financial, and administrative requirements.</li>
+                        <li><strong>Property Maintenance and Management:</strong> Comprehensive property maintenance services, including regular inspections, repairs, renovations, and overall upkeep to ensure the property remains in excellent condition.</li>
+                        <li><strong>Tenant Administration and Rental Collection:</strong> Seamless leasing processes, advertising rental spaces, vetting tenants, drafting lease agreements, and handling rental collections for a hassle-free and secure experience.</li>
+                    </ul>
+                    <h4>Competitive Edge</h4>
+                    <ul>
+                        <li>Tailored services for the African diaspora, especially the Zimbabwean community</li>
+                        <li>Deep market knowledge of Gauteng Province</li>
+                        <li>Diversified tenant base (students, workers)</li>
+                        <li>Investment in prime zones for high returns and low risk</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="marketLearnMoreModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Market Analysis</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <h4>Target Market</h4>
+                    <ul>
+                        <li><strong>Zimbabwean Expatriates:</strong> Significant proportion of Zimbabwean nationals live and work abroad in countries like the UK, USA, Australia, and Asia. This demographic seeks stable, high-return investments that are reliable and secure. South Africa offers such opportunities due to its relatively stable economic environment.</li>
+                        <li><strong>High-Income Professionals Abroad:</strong> Individuals looking to diversify their investment portfolios often view real estate as a reliable vehicle for long-term growth and income generation. South Africa's growing urbanization and demand for housing amplify this potential.</li>
+                        <li><strong>Domestic Market:</strong> Gauteng Province, a prime location for residential properties, houses industrial hubs, universities, and tourist facilities, creating a steady demand for rental properties.</li>
+                    </ul>
+                    <h4>Market Trends</h4>
+                    <ul>
+                        <li><strong>Rising Interest in Affordable Housing:</strong> Approximately 76% of residential properties in South Africa are valued under R1.2 million, with government-subsidized housing making up a significant share of this market.</li>
+                        <li><strong>Increased Urbanization:</strong> The demand for affordable housing is growing due to urbanization, with more than 67% of the population now living in urban areas. Gauteng alone accounts for 38% of the total residential property market value, highlighting its strategic importance for investment.</li>
+                        <li><strong>Post-COVID-19 Recovery:</strong> The real estate market saw increased activity post-COVID, but rising interest rates in 2023 slowed growth, indicating a shift towards more cautious investment behavior. Urbanization rates in South Africa are expected to rise to 72% by 2030, driving demand for urban housing.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tichaona Modal -->
+    <div class="modal fade" id="bioModalTichaona" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn btn-outline-primary d-flex align-items-center me-3" data-bs-dismiss="modal" aria-label="Back">
+                        <i class="fas fa-arrow-left me-2"></i> Back
+                    </button>
+                    <h5 class="modal-title">Tichaona Murisi - Full Bio</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Tichaona Murisi brings over a decade of experience in business development, economics, and strategic planning to Renaissance Properties. With a robust academic foundation, holding a Master's in Business Management and dual degrees in Economics and Business Management. Tichaona has carved a niche as a dynamic strategist and economic consultant across public and private sectors in South Africa.<br><br>His prior roles include spearheading business innovation at Shumba Technologies and guiding enterprise growth as a business development consultant for SMEs. Tichaona has also served as a university lecturer at postgraduate level, where he taught Financial Management and Global Business Strategy. His diverse background enables him to integrate academic knowledge with actionable business intelligence, making him a crucial driver of Renaissance Properties' mission to build wealth solutions for the African diaspora.<br><br>At Renaissance, he leads strategic partnerships, investment research, and client success architecture, ensuring that every investor receives a tailored, transparent, and secure pathway into South Africa's high-potential real estate sector.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Enock Modal -->
+    <div class="modal fade" id="bioModalEnock" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn btn-outline-primary d-flex align-items-center me-3" data-bs-dismiss="modal" aria-label="Back">
+                        <i class="fas fa-arrow-left me-2"></i> Back
+                    </button>
+                    <h5 class="modal-title">Enock Mukwekwe - Full Bio</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Enock Mukwekwe is a seasoned audit professional with international experience spanning South Africa, the UK, and the USA. A Chartered Accountant with a Postgraduate Diploma in Taxation and a B.Com from Rhodes University, Enock brings deep expertise in financial oversight, auditing standards, and regulatory compliance.<br><br>Enock's audit leadership includes senior roles at Azets UK, SAPRO USA, and Wakely Smith Lattuca in Johannesburg. He has managed audit teams, streamlined financial reporting processes, and led cross-border compliance projects with precision and integrity. His fluency in global accounting standards and risk management makes him a cornerstone of financial governance at Renaissance Properties.<br><br>As Finance & Compliance Director, Enock oversees all financial modeling, audit controls, legal structuring, and rental revenue management. His detail-oriented approach ensures that investors' funds are safeguarded with the highest standards of fiscal accountability making property ownership abroad a transparent and trustworthy experience.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
