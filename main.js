@@ -106,3 +106,4 @@ document.addEventListener('click', (e) => {
         dropdowns.forEach(dropdown => dropdown.classList.remove('show'));
     }
 }); 
+/
